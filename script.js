@@ -27,7 +27,7 @@ document.querySelectorAll(".nav-menu a").forEach((link) => {
 });
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth > 820) closeMenu();
+  if (window.innerWidth > 960) closeMenu();
 });
 
 const savedTheme = localStorage.getItem("joselito-portfolio-theme");

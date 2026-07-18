@@ -1,46 +1,47 @@
-# Joselito R. Acalde — Professional Portfolio
+# Joselito R. Alcalde — Professional Portfolio v2
 
-A responsive, single-page portfolio built with HTML, CSS, and JavaScript.
+This version updates the deployed portfolio with stronger professional content and a public résumé.
 
-## Included
+## Major updates
 
-- Professional portrait supplied by Joselito
-- Government service experience since January 2019
-- Deployed email and document-management automation
-- Three book/manual development projects
-- Data, automation, web, design, AI, and publishing capabilities
-- Tool groups for VS Code, Figma, Canva, Boardmix, Hedra, WordPress, and other platforms
-- LinkedIn, GitHub, and email contact links
-- Mobile navigation, scroll animations, and light/dark theme
+- Correct surname: **Alcalde**
+- Consistent portrait filename: `assets/images/joselito-alcalde.webp`
+- Downloadable public résumé
+- Detailed Action PNCO responsibilities
+- Case monitoring and seized-evidence inventory
+- Monitoring of documented seized-drug evidence destruction
+- Participation in dismissed drug-case evaluation
+- Congressional office experience
+- Licensure, NAPOLCOM eligibility, education, leadership, and professional training
+- Stronger final-editor and publication-development descriptions
+- Data-driven PowerPoint presentation project
+- Current location, remote availability, and languages
+- CV remains available only upon request
 
-## Open in Visual Studio Code
+## Deploy the update to GitHub Pages
 
-1. Extract the ZIP file.
-2. Open Visual Studio Code.
-3. Select **File > Open Folder**.
-4. Choose the `joselito-acalde-portfolio` folder.
-5. Open `index.html`.
-6. Launch it with the **Live Server** extension, or open `index.html` directly in a browser.
+Copy all files and folders from this package into the root of your local
+`Alcalds.github.io` repository, replacing the older versions.
 
-## Main files
+Then run:
 
-- `index.html` — website structure and content
-- `styles.css` — layout, responsive styling, and themes
-- `script.js` — navigation, scroll effects, active links, and theme switching
-- `assets/images/joselito-acalde.webp` — optimized profile portrait
-- `assets/logos/` — local logo-style SVG badges
+```bash
+git add .
+git commit -m "Update portfolio with resume and credentials"
+git push origin main
+```
 
-## Resume
+After GitHub Pages finishes deploying, refresh the website with `Ctrl + Shift + R`.
 
-A résumé download button was intentionally not added because no résumé PDF was supplied.
-After the résumé is finalized, place it in `assets/documents/` and add a button in the hero section.
+## Important files
 
-## Before publishing
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/images/joselito-alcalde.webp`
+- `assets/documents/Joselito_Alcalde_Public_Resume.pdf`
 
-Review all project descriptions and remove any content that should remain confidential.
-Do not upload internal records, personal data, operational details, restricted documents,
-or screenshots containing official information.
+## Privacy
 
-## Suggested hosting
-
-The site can be published through GitHub Pages, Netlify, or Vercel.
+Only the public résumé is included. The private résumé, mobile number,
+complete address, and detailed CV are not included in this public website package.
