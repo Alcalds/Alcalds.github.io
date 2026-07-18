@@ -77,3 +77,78 @@ const sectionObserver = new IntersectionObserver(
 );
 
 sections.forEach((section) => sectionObserver.observe(section));
+
+
+// Contact-form intent links.
+const inquiryType = document.getElementById("inquiryType");
+const contactSubject = document.getElementById("contactSubject");
+const contactMessage = document.getElementById("contactMessage");
+
+document.querySelectorAll("[data-contact-intent]").forEach((link) => {
+  link.addEventListener("click", () => {
+    const intent = link.dataset.contactIntent;
+
+    if (intent === "cv" && inquiryType && contactSubject && contactMessage) {
+      inquiryType.value = "Request detailed CV";
+      contactSubject.value = "Request for Joselito Alcalde's Detailed CV";
+
+      if (!contactMessage.value.trim()) {
+        contactMessage.value =
+          "Hello Joselito,\\n\\nI would like to request a copy of your detailed CV for a potential opportunity. Please let me know if you require any additional information.\\n\\nThank you.";
+      }
+
+      window.setTimeout(() => {
+        const nameField = document.querySelector('#contactForm input[name="name"]');
+        if (nameField) nameField.focus({ preventScroll: true });
+      }, 650);
+    }
+  });
+});
+
+// Update subject suggestions when inquiry type changes.
+if (inquiryType && contactSubject) {
+  inquiryType.addEventListener("change", () => {
+    const suggestions = {
+      "Job opportunity": "Job Opportunity for Joselito Alcalde",
+      "Request detailed CV": "Request for Joselito Alcalde's Detailed CV",
+      "Project collaboration": "Project Collaboration Inquiry",
+      "General inquiry": "General Portfolio Inquiry"
+    };
+
+    if (!contactSubject.value.trim() ||
+        Object.values(suggestions).includes(contactSubject.value)) {
+      contactSubject.value = suggestions[inquiryType.value] || "";
+    }
+  });
+}
+
+// Copy-email fallback that works even when no mail application is configured.
+const copyEmailButton = document.getElementById("copyEmailButton");
+const copyStatus = document.getElementById("copyStatus");
+const emailAddress = "joselitoalcalde@gmail.com";
+
+async function copyPortfolioEmail() {
+  try {
+    await navigator.clipboard.writeText(emailAddress);
+    copyStatus.textContent = "Email address copied.";
+  } catch (error) {
+    const temporaryInput = document.createElement("textarea");
+    temporaryInput.value = emailAddress;
+    temporaryInput.setAttribute("readonly", "");
+    temporaryInput.style.position = "fixed";
+    temporaryInput.style.opacity = "0";
+    document.body.appendChild(temporaryInput);
+    temporaryInput.select();
+    document.execCommand("copy");
+    temporaryInput.remove();
+    copyStatus.textContent = "Email address copied.";
+  }
+
+  window.setTimeout(() => {
+    copyStatus.textContent = "";
+  }, 3000);
+}
+
+if (copyEmailButton) {
+  copyEmailButton.addEventListener("click", copyPortfolioEmail);
+}

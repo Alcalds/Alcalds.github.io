@@ -1,24 +1,38 @@
-# Joselito R. Alcalde — Professional Portfolio v2
+# Joselito R. Alcalde — Professional Portfolio v3
 
-This version updates the deployed portfolio with stronger professional content and a public résumé.
+This version replaces laptop-dependent `mailto:` buttons with a cross-device contact system.
 
-## Major updates
+## Contact improvements
 
-- Correct surname: **Alcalde**
-- Consistent portrait filename: `assets/images/joselito-alcalde.webp`
-- Downloadable public résumé
-- Detailed Action PNCO responsibilities
-- Case monitoring and seized-evidence inventory
-- Monitoring of documented seized-drug evidence destruction
-- Participation in dismissed drug-case evaluation
-- Congressional office experience
-- Licensure, NAPOLCOM eligibility, education, leadership, and professional training
-- Stronger final-editor and publication-development descriptions
-- Data-driven PowerPoint presentation project
-- Current location, remote availability, and languages
-- CV remains available only upon request
+- Working contact form for laptops and mobile devices
+- Form categories for:
+  - Job opportunity
+  - Request detailed CV
+  - Project collaboration
+  - General inquiry
+- “Request detailed CV” automatically preselects and prepares the form
+- Copy-email button
+- Optional “Open Gmail” shortcut
+- CAPTCHA-based spam protection
+- Custom thank-you page
+- Public résumé remains downloadable
 
-## Deploy the update to GitHub Pages
+## Important first-time activation
+
+The contact form uses FormSubmit, which does not require an account.
+
+After deploying this version:
+
+1. Open the live portfolio.
+2. Submit one test message through the contact form.
+3. Check `joselitoalcalde@gmail.com`.
+4. Open the FormSubmit activation email.
+5. Confirm/activate the form.
+
+The first test message is used for activation. After confirmation, later submissions
+will be forwarded to your Gmail inbox.
+
+## Deploy to GitHub Pages
 
 Copy all files and folders from this package into the root of your local
 `Alcalds.github.io` repository, replacing the older versions.
@@ -27,21 +41,21 @@ Then run:
 
 ```bash
 git add .
-git commit -m "Update portfolio with resume and credentials"
+git commit -m "Add cross-device portfolio contact form"
 git push origin main
 ```
 
-After GitHub Pages finishes deploying, refresh the website with `Ctrl + Shift + R`.
-
-## Important files
+New or updated files include:
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- `assets/images/joselito-alcalde.webp`
-- `assets/documents/Joselito_Alcalde_Public_Resume.pdf`
+- `thanks.html`
+- `README.md`
+
+After GitHub Pages finishes deploying, refresh with `Ctrl + Shift + R`.
 
 ## Privacy
 
-Only the public résumé is included. The private résumé, mobile number,
-complete address, and detailed CV are not included in this public website package.
+The public website includes your professional Gmail address. It does not include
+your private résumé, mobile number, or complete residential address.

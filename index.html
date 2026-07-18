@@ -109,7 +109,7 @@
             <a class="button button-secondary"
                href="assets/documents/Joselito_Alcalde_Public_Resume.pdf"
                download="Joselito_Alcalde_Public_Resume.pdf">Download résumé</a>
-            <a class="button button-ghost" href="mailto:joselitoalcalde@gmail.com">Contact me</a>
+            <a class="button button-ghost" href="#contact">Contact me</a>
           </div>
 
           <div class="hero-facts" aria-label="Professional highlights">
@@ -586,8 +586,9 @@
             <a class="button button-primary"
                href="assets/documents/Joselito_Alcalde_Public_Resume.pdf"
                download="Joselito_Alcalde_Public_Resume.pdf">Download public résumé</a>
-            <a class="button button-secondary"
-               href="mailto:joselitoalcalde@gmail.com?subject=Request%20for%20Joselito%20Alcalde%27s%20Detailed%20CV">Request detailed CV</a>
+            <a class="button button-secondary contact-intent"
+               href="#contact"
+               data-contact-intent="cv">Request detailed CV</a>
           </div>
         </div>
       </div>
@@ -617,39 +618,146 @@
     </section>
 
     <section class="section contact-section" id="contact">
-      <div class="container contact-grid">
-        <div class="contact-copy reveal">
+      <div class="container">
+        <div class="section-heading light contact-heading reveal">
           <p class="section-kicker">Contact</p>
           <h2>Let’s discuss how I can contribute.</h2>
           <p>
-            I am open to work involving administration, case and records monitoring, data,
-            automation, web content, design, publication support, and other responsibilities aligned
-            with my experience. I am also open to international remote opportunities.
+            Use the form below for job opportunities, remote work, collaboration,
+            or requests for my detailed CV. The form works on laptops and mobile devices
+            without requiring a configured email application.
           </p>
-          <a class="button button-light" href="mailto:joselitoalcalde@gmail.com">Send an email</a>
         </div>
 
-        <div class="contact-links reveal">
-          <a href="mailto:joselitoalcalde@gmail.com">
-            <span>Email</span>
-            <strong>joselitoalcalde@gmail.com</strong>
-          </a>
-          <a href="https://www.linkedin.com/in/joselito-alcalde-298982343/" target="_blank" rel="noopener noreferrer">
-            <span>LinkedIn</span>
-            <strong>Joselito Alcalde</strong>
-          </a>
-          <a href="https://github.com/Alcalds" target="_blank" rel="noopener noreferrer">
-            <span>GitHub</span>
-            <strong>Joe Alcads · @Alcalds</strong>
-          </a>
-          <div>
-            <span>Current location</span>
-            <strong>Manila, Philippines · UTC+8</strong>
-          </div>
-          <div>
-            <span>Permanent residence</span>
-            <strong>Santa Cruz, Laguna, Philippines</strong>
-          </div>
+        <div class="contact-layout">
+          <aside class="contact-details reveal" aria-label="Contact details">
+            <div class="contact-detail-card">
+              <span>Email</span>
+              <strong id="portfolioEmail">joselitoalcalde@gmail.com</strong>
+              <div class="contact-detail-actions">
+                <button class="mini-button" id="copyEmailButton" type="button">
+                  Copy email
+                </button>
+                <a class="mini-button"
+                   href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=joselitoalcalde@gmail.com&amp;su=Portfolio%20Inquiry"
+                   target="_blank"
+                   rel="noopener noreferrer">Open Gmail</a>
+              </div>
+              <p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p>
+            </div>
+
+            <a class="contact-detail-card contact-detail-link"
+               href="https://www.linkedin.com/in/joselito-alcalde-298982343/"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span>LinkedIn</span>
+              <strong>Joselito Alcalde</strong>
+              <small>View professional profile ↗</small>
+            </a>
+
+            <a class="contact-detail-card contact-detail-link"
+               href="https://github.com/Alcalds"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span>GitHub</span>
+              <strong>Joe Alcads · @Alcalds</strong>
+              <small>View projects and code ↗</small>
+            </a>
+
+            <div class="contact-detail-card">
+              <span>Availability</span>
+              <strong>Manila, Philippines · UTC+8</strong>
+              <small>Open to remote and relevant opportunities</small>
+            </div>
+          </aside>
+
+          <form class="contact-form reveal"
+                id="contactForm"
+                action="https://formsubmit.co/joselitoalcalde@gmail.com"
+                method="POST">
+            <input type="hidden" name="_subject" value="New Portfolio Inquiry — Joselito Alcalde">
+            <input type="hidden" name="_next" value="https://alcalds.github.io/thanks.html">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden"
+                   name="_autoresponse"
+                   value="Thank you for contacting Joselito R. Alcalde. Your message has been received and will be reviewed as soon as possible.">
+            <input class="form-honeypot"
+                   type="text"
+                   name="_honey"
+                   tabindex="-1"
+                   autocomplete="off"
+                   aria-hidden="true">
+
+            <div class="form-row">
+              <label class="form-field">
+                <span>Full name</span>
+                <input type="text"
+                       name="name"
+                       autocomplete="name"
+                       required
+                       maxlength="100"
+                       placeholder="Your name">
+              </label>
+
+              <label class="form-field">
+                <span>Email address</span>
+                <input type="email"
+                       name="_replyto"
+                       autocomplete="email"
+                       required
+                       maxlength="160"
+                       placeholder="you@example.com">
+              </label>
+            </div>
+
+            <label class="form-field">
+              <span>Company or organization <small>(optional)</small></span>
+              <input type="text"
+                     name="organization"
+                     autocomplete="organization"
+                     maxlength="140"
+                     placeholder="Company or organization">
+            </label>
+
+            <label class="form-field">
+              <span>Type of inquiry</span>
+              <select id="inquiryType" name="inquiry_type" required>
+                <option value="Job opportunity">Job opportunity</option>
+                <option value="Request detailed CV">Request detailed CV</option>
+                <option value="Project collaboration">Project collaboration</option>
+                <option value="General inquiry">General inquiry</option>
+              </select>
+            </label>
+
+            <label class="form-field">
+              <span>Subject</span>
+              <input id="contactSubject"
+                     type="text"
+                     name="subject"
+                     required
+                     maxlength="160"
+                     placeholder="How can I help?">
+            </label>
+
+            <label class="form-field">
+              <span>Message</span>
+              <textarea id="contactMessage"
+                        name="message"
+                        rows="7"
+                        required
+                        maxlength="3000"
+                        placeholder="Please provide a brief description of the opportunity or request."></textarea>
+            </label>
+
+            <button class="button button-light form-submit" type="submit">
+              Send message
+            </button>
+
+            <p class="form-note">
+              Your message is securely processed by FormSubmit and forwarded to my Gmail inbox.
+              A CAPTCHA may appear to help prevent spam.
+            </p>
+          </form>
         </div>
       </div>
     </section>
