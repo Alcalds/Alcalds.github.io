@@ -1,61 +1,35 @@
-# Joselito R. Alcalde — Professional Portfolio v3
+# Joselito R. Alcalde - Professional Portfolio v4
 
-This version replaces laptop-dependent `mailto:` buttons with a cross-device contact system.
+This version expands the portfolio with a live responsive web project and updated application documents.
 
-## Contact improvements
+## Major updates
 
-- Working contact form for laptops and mobile devices
-- Form categories for:
-  - Job opportunity
-  - Request detailed CV
-  - Project collaboration
-  - General inquiry
-- “Request detailed CV” automatically preselects and prepares the form
-- Copy-email button
-- Optional “Open Gmail” shortcut
-- CAPTCHA-based spam protection
-- Custom thank-you page
-- Public résumé remains downloadable
+- Added the Cerberus Construction Concept Website as a featured live project
+- Added a project preview image and links to the live website and source repository
+- Updated the hero, about, capabilities, experience, credentials, roles, and contact content
+- Added responsive web design, front-end development, and GitHub Pages deployment to the portfolio
+- Updated the public resume and added a downloadable public CV
+- Kept private contact details out of the public website and public documents
+- Added a Website or Digital Project option to the contact form
+- Updated the public location to Santa Cruz, Laguna, Philippines
 
-## Important first-time activation
+## Live projects
 
-The contact form uses FormSubmit, which does not require an account.
+- Professional portfolio: https://alcalds.github.io/
+- Cerberus Construction concept website: https://alcalds.github.io/cerberus-construction-ph/
 
-After deploying this version:
+## Contact form activation
 
-1. Open the live portfolio.
-2. Submit one test message through the contact form.
-3. Check `joselitoalcalde@gmail.com`.
-4. Open the FormSubmit activation email.
-5. Confirm/activate the form.
+The contact form uses FormSubmit. After deployment, submit a test message and confirm the activation email sent to `joselitoalcalde@gmail.com` when required.
 
-The first test message is used for activation. After confirmation, later submissions
-will be forwarded to your Gmail inbox.
+## GitHub Pages deployment
 
-## Deploy to GitHub Pages
+Upload all files and folders in this package to the root of the `Alcalds.github.io` repository, replace the existing files, and commit directly to `main`.
 
-Copy all files and folders from this package into the root of your local
-`Alcalds.github.io` repository, replacing the older versions.
+Suggested commit message:
 
-Then run:
-
-```bash
-git add .
-git commit -m "Add cross-device portfolio contact form"
-git push origin main
+```text
+Update portfolio with Cerberus web project and revised resume and CV
 ```
 
-New or updated files include:
-
-- `index.html`
-- `styles.css`
-- `script.js`
-- `thanks.html`
-- `README.md`
-
-After GitHub Pages finishes deploying, refresh with `Ctrl + Shift + R`.
-
-## Privacy
-
-The public website includes your professional Gmail address. It does not include
-your private résumé, mobile number, or complete residential address.
+After deployment, refresh the live site with `Ctrl + Shift + R`.

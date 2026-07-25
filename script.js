@@ -112,6 +112,7 @@ if (inquiryType && contactSubject) {
       "Job opportunity": "Job Opportunity for Joselito Alcalde",
       "Request detailed CV": "Request for Joselito Alcalde's Detailed CV",
       "Project collaboration": "Project Collaboration Inquiry",
+      "Website or digital project": "Website or Digital Project Inquiry",
       "General inquiry": "General Portfolio Inquiry"
     };
 
