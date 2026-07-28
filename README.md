@@ -1,4 +1,4 @@
-# Joselito R. Alcalde - Professional Portfolio v10
+# Joselito R. Alcalde - Professional Portfolio v11
 
 This version presents Joselito R. Alcalde as a **Data, Reporting and Workflow Automation Specialist** with supporting capability in remote operations and administrative support.
 
@@ -29,15 +29,13 @@ This version presents Joselito R. Alcalde as a **Data, Reporting and Workflow Au
 - `documentation-formatting-case-study.html` — professional editing, formatting, and publication QA
 - `assets/documents/Sanitized_Documentation_Formatting_Sample.pdf` — downloadable three-page fictional PDF sample
 
-## Version 10 recruiter-readiness update
+## Version 11 final deployment update
 
-- Added `work-samples.html` as a central recruiter-ready evidence hub.
-- Simplified navigation across the homepage and case-study pages.
-- Added a verified proof-point strip to the homepage and evidence hub.
-- Corrected the homepage so the documentation case study is visibly featured and linked.
-- Added recruiter review guidance and clear verified-versus-sanitized evidence boundaries.
-- Added focus-visible accessibility styling and lazy loading for non-critical images.
-- Updated the sitemap and retained all finalized résumé, CV, contact, dark-mode, and responsive features.
+- Retains the recruiter-ready work-samples hub, three sanitized case studies, finalized résumé, finalized CV, and contact workflow.
+- Adds versioned CSS and JavaScript references (`?v=11`) to reduce stale browser-cache problems after deployment.
+- Adds a branded `404.html` page for invalid or outdated GitHub Pages links.
+- Adds a detailed deployment and post-deployment verification checklist.
+- Revalidates local links, document files, archive integrity, desktop rendering, and mobile rendering.
 
 ## Application documents
 
@@ -55,7 +53,7 @@ Upload all files and folders in this package to the root of the `Alcalds.github.
 Suggested commit message:
 
 ```text
-Add recruiter-ready work samples hub and final portfolio proof points
+Deploy finalized recruiter-ready portfolio v11
 ```
 
 After deployment, refresh the live site with `Ctrl + Shift + R` and test the homepage, work-sample hub, three case studies, résumé, CV, sample PDF, and contact form on desktop and mobile.
