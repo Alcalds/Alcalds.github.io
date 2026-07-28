@@ -1,17 +1,26 @@
-# Joselito R. Alcalde - Professional Portfolio v4
+# Joselito R. Alcalde - Professional Portfolio v5
 
-This version expands the portfolio with a live responsive web project and updated application documents.
+This version completes Step 1 of the portfolio-employability improvement plan by establishing a clear primary specialization.
 
-## Major updates
+## Primary positioning
 
-- Added the Cerberus Construction Concept Website as a featured live project
-- Added a project preview image and links to the live website and source repository
-- Updated the hero, about, capabilities, experience, credentials, roles, and contact content
-- Added responsive web design, front-end development, and GitHub Pages deployment to the portfolio
-- Updated the public resume and added a downloadable public CV
-- Kept private contact details out of the public website and public documents
-- Added a Website or Digital Project option to the contact form
-- Updated the public location to Santa Cruz, Laguna, Philippines
+**Data, Reporting and Workflow Automation Specialist**  
+**Remote Operations and Administrative Support**
+
+The portfolio now leads with data, spreadsheet reporting, records management, professional documentation, operational support, and Google Workspace automation. Website development, design, and AI-assisted productivity remain visible as secondary digital-support capabilities.
+
+## Step 1 updates
+
+- Rewritten browser title, metadata, social-sharing text, and structured professional title
+- Repositioned the hero section around data, reporting, and workflow automation
+- Added Remote Operations and Administrative Support as the supporting role
+- Rewritten the About section to explain the connection between operational experience, data, and automation
+- Reordered and revised capabilities according to their professional priority
+- Reframed the experience introduction around data validation, reporting, records, documentation, and automation
+- Replaced the broad role list with focused data, operations, reporting, and automation roles
+- Added specialized inquiry categories to the contact form
+- Updated the social-sharing preview image
+- Preserved the updated profile photo, dark-mode contact-section correction, projects, résumé and CV downloads, responsive design, and existing functionality
 
 ## Live projects
 
@@ -29,7 +38,7 @@ Upload all files and folders in this package to the root of the `Alcalds.github.
 Suggested commit message:
 
 ```text
-Update portfolio with Cerberus web project and revised resume and CV
+Reposition portfolio for data reporting and workflow automation
 ```
 
 After deployment, refresh the live site with `Ctrl + Shift + R`.

@@ -110,9 +110,12 @@ if (inquiryType && contactSubject) {
   inquiryType.addEventListener("change", () => {
     const suggestions = {
       "Job opportunity": "Job Opportunity for Joselito Alcalde",
+      "Data and reporting support": "Data and Reporting Support Inquiry",
+      "Workflow automation support": "Workflow Automation Support Inquiry",
+      "Operations and documentation support": "Operations and Documentation Support Inquiry",
       "Request detailed CV": "Request for Joselito Alcalde's Detailed CV",
-      "Project collaboration": "Project Collaboration Inquiry",
       "Website or digital project": "Website or Digital Project Inquiry",
+      "Project collaboration": "Project Collaboration Inquiry",
       "General inquiry": "General Portfolio Inquiry"
     };
 

@@ -287,6 +287,22 @@ ul {
   max-width: 750px;
 }
 
+.hero-support-label {
+  color: var(--primary);
+  font-size: .88rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  margin: -10px 0 16px;
+  text-transform: uppercase;
+}
+
+.hero-secondary {
+  color: var(--muted);
+  font-size: .94rem;
+  margin-top: 14px;
+  max-width: 750px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
