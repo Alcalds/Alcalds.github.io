@@ -42,3 +42,9 @@ Reposition portfolio for data reporting and workflow automation
 ```
 
 After deployment, refresh the live site with `Ctrl + Shift + R`.
+
+## Version 6 application-document update
+
+- Replaced the public résumé with the finalized two-page Data, Reporting and Workflow Automation Specialist version.
+- Replaced the public CV with the updated three-page version containing verified case-monitoring, reporting, automation, publication, and project details.
+- Preserved the document filenames used by the existing portfolio download buttons.
