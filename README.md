@@ -1,6 +1,6 @@
-# Joselito R. Alcalde - Professional Portfolio v5
+# Joselito R. Alcalde - Professional Portfolio v7
 
-This version completes Step 1 of the portfolio-employability improvement plan by establishing a clear primary specialization.
+This version includes the finalized public résumé and CV and adds a dedicated sanitized Google Workspace automation case study.
 
 ## Primary positioning
 
@@ -48,3 +48,12 @@ After deployment, refresh the live site with `Ctrl + Shift + R`.
 - Replaced the public résumé with the finalized two-page Data, Reporting and Workflow Automation Specialist version.
 - Replaced the public CV with the updated three-page version containing verified case-monitoring, reporting, automation, publication, and project details.
 - Preserved the document filenames used by the existing portfolio download buttons.
+
+
+## Version 7 automation case study
+
+- Added `automation-case-study.html` as a dedicated sanitized work sample.
+- Added verified execution metrics, historical backfill coverage, a simplified workflow diagram, fictional tracker data, a demonstration folder structure, privacy safeguards, and non-confidential pseudocode.
+- Added a direct case-study button to the featured automation project and a Case Study navigation link.
+- Updated the sitemap to include the new page.
+- Preserved the finalized résumé and CV filenames and download links.

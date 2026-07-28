@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="Sanitized case study of a Google Workspace email and document-management automation developed by Joselito R. Alcalde using Apps Script, Gmail, Drive, and Sheets."/>
+<meta name="author" content="Joselito R. Alcalde"/>
+<meta name="theme-color" content="#173b67"/>
+<meta property="og:title" content="Google Workspace Automation Case Study | Joselito R. Alcalde"/>
+<meta property="og:description" content="A privacy-safe work sample showing automated email intake, document classification, Drive filing, Sheets tracking, duplicate prevention, and verified execution results."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://alcalds.github.io/automation-case-study.html"/>
+<meta property="og:image" content="https://alcalds.github.io/assets/images/social-preview.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="canonical" href="https://alcalds.github.io/automation-case-study.html"/>
+<title>Google Workspace Automation Case Study | Joselito R. Alcalde</title>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer src="script.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Google Workspace Email and Document Management Automation",
+  "author": {"@type": "Person", "name": "Joselito R. Alcalde"},
+  "url": "https://alcalds.github.io/automation-case-study.html",
+  "description": "A sanitized case study of a deployed workflow for email intake, attachment classification, structured Drive filing, centralized Sheets tracking, and controlled historical backfill.",
+  "keywords": ["Google Apps Script", "Gmail automation", "Google Drive", "Google Sheets", "workflow automation", "document management"]
+}
+</script>
+</head>
+<body class="case-study-page">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" id="siteHeader">
+<nav aria-label="Primary navigation" class="nav container">
+<a aria-label="Joselito R. Alcalde home" class="brand" href="index.html#home">
+<span class="brand-mark">JA</span><span class="brand-name">Joselito Alcalde</span>
+</a>
+<button aria-controls="navMenu" aria-expanded="false" aria-label="Open navigation" class="menu-button" id="menuButton" type="button"><span></span><span></span><span></span></button>
+<div class="nav-menu" id="navMenu">
+<a href="index.html#about">About</a>
+<a href="index.html#capabilities">Capabilities</a>
+<a href="index.html#projects">Projects</a>
+<a class="active" href="automation-case-study.html">Case Study</a>
+<a href="index.html#experience">Experience</a>
+<a href="index.html#contact">Contact</a>
+<button aria-label="Switch theme" class="theme-button" id="themeButton" type="button"><span aria-hidden="true" class="theme-icon">◐</span></button>
+</div>
+</nav>
+</header>
+<main id="main-content">
+<section class="case-hero" id="overview">
+<div aria-hidden="true" class="hero-orb hero-orb-one"></div>
+<div aria-hidden="true" class="hero-orb hero-orb-two"></div>
+<div class="container case-hero-grid">
+<div class="case-hero-copy reveal">
+<p class="eyebrow">Sanitized Work Sample · Workflow Automation</p>
+<h1>Google Workspace Email and Document Management Automation</h1>
+<p class="case-lead">A privacy-safe case study showing how repetitive email intake, attachment filing, and communication tracking were converted into a structured, scheduled workflow.</p>
+<div class="case-badges" aria-label="Project highlights">
+<span>Deployed workflow</span><span>10-minute live trigger</span><span>Historical backfill complete</span><span>Internal identity withheld</span>
+</div>
+<div class="hero-actions">
+<a class="button button-primary" href="#workflow">View workflow</a>
+<a class="button button-secondary" href="index.html#projects">Back to portfolio</a>
+</div>
+</div>
+<aside class="case-summary-card reveal" aria-label="Case study summary">
+<p class="summary-label">Project summary</p>
+<dl>
+<div><dt>Role</dt><dd>Planning, development, testing, deployment, and refinement</dd></div>
+<div><dt>Context</dt><dd>Internal administrative and document-reporting workflow involving 18 reporting units</dd></div>
+<div><dt>Technology</dt><dd>Google Apps Script, Gmail, Google Drive, Google Sheets, JavaScript</dd></div>
+<div><dt>Public scope</dt><dd>Fictional records and simplified architecture only</dd></div>
+</dl>
+</aside>
+</div>
+</section>
+
+<section class="section section-soft" id="challenge">
+<div class="container">
+<div class="section-heading reveal">
+<p class="section-kicker">Challenge and response</p>
+<h2>Replacing repetitive document handling with a traceable workflow.</h2>
+</div>
+<div class="case-three-grid">
+<article class="case-info-card reveal"><span>01</span><h3>The operational problem</h3><p>Incoming reports and supporting files required repeated inbox checking, relevance screening, downloading, classification, folder creation, and tracker updating. Historical messages also needed to be organized without duplicating records or interrupting live processing.</p></article>
+<article class="case-info-card reveal"><span>02</span><h3>My role</h3><p>I planned the workflow, translated the document-handling process into rules, developed the Apps Script solution, tested live and historical modes, reviewed execution logs, and refined classification and duplicate-control behavior.</p></article>
+<article class="case-info-card reveal"><span>03</span><h3>The solution</h3><p>The deployed workflow checks incoming mail on a schedule, screens messages, classifies each attachment, creates the required Drive path, saves the file, updates a Sheets register, records processing status, and sorts entries chronologically.</p></article>
+</div>
+</div>
+</section>
+
+<section class="section" id="results">
+<div class="container">
+<div class="section-heading centered reveal">
+<p class="section-kicker">Verified results</p>
+<h2>Measured through execution logs and completed backfill coverage.</h2>
+<p>No unverified productivity percentage or estimated time savings is claimed.</p>
+</div>
+<div class="metric-grid">
+<article class="metric-card reveal"><strong>10 min</strong><span>Live incoming-email trigger interval</span></article>
+<article class="metric-card reveal"><strong>Jan 2024–Jun 2026</strong><span>Historical email and attachment coverage</span></article>
+<article class="metric-card reveal"><strong>Jul 21–27, 2026</strong><span>Historical backfill completion window</span></article>
+<article class="metric-card reveal"><strong>18</strong><span>Reporting units in the operational context</span></article>
+</div>
+<div class="batch-result reveal" aria-label="Documented historical processing batch">
+<div><span>Threads scanned</span><strong>50</strong></div>
+<div><span>Relevant messages recorded</span><strong>54</strong></div>
+<div><span>Files saved</span><strong>56</strong></div>
+<div><span>Processing errors</span><strong>0</strong></div>
+</div>
+</div>
+</section>
+
+<section class="section section-dark" id="workflow">
+<div class="container">
+<div class="section-heading light reveal">
+<p class="section-kicker">Workflow</p>
+<h2>From incoming message to organized record.</h2>
+<p>This public diagram simplifies the deployed logic and removes internal names, identifiers, and classification details.</p>
+</div>
+<div class="case-workflow reveal" role="img" aria-label="Incoming Gmail message is screened, attachments are classified, Drive folders are created, files are saved, the Sheets tracker is updated, and results are logged and sorted">
+<div class="case-flow-step"><span>1</span><strong>Gmail intake</strong><small>Recent incoming messages</small></div>
+<i aria-hidden="true">→</i>
+<div class="case-flow-step"><span>2</span><strong>Screen</strong><small>Relevant, outgoing, or processed</small></div>
+<i aria-hidden="true">→</i>
+<div class="case-flow-step"><span>3</span><strong>Classify</strong><small>Attachment-level rules</small></div>
+<i aria-hidden="true">→</i>
+<div class="case-flow-step"><span>4</span><strong>File in Drive</strong><small>Year · Month · Section · Category</small></div>
+<i aria-hidden="true">→</i>
+<div class="case-flow-step"><span>5</span><strong>Update Sheets</strong><small>Central communication register</small></div>
+<i aria-hidden="true">→</i>
+<div class="case-flow-step"><span>6</span><strong>Log and sort</strong><small>Status, errors, chronology</small></div>
+</div>
+<div class="case-feature-grid">
+<article class="dark-feature-card reveal"><h3>Scheduled processing</h3><p>The live function runs every 10 minutes, while historical processing was handled as a separate controlled workflow.</p></article>
+<article class="dark-feature-card reveal"><h3>Duplicate prevention</h3><p>Previously processed messages are skipped so the tracker and Drive do not receive repeated entries from the same source message.</p></article>
+<article class="dark-feature-card reveal"><h3>Attachment-level filing</h3><p>Each attachment can be classified and stored independently rather than forcing every file in one email into the same category.</p></article>
+<article class="dark-feature-card reveal"><h3>Operational controls</h3><p>Outgoing-message screening, controlled batch limits, error logging, manual-review status, and chronological sorting support reliability.</p></article>
+</div>
+</div>
+</section>
+
+<section class="section section-soft" id="samples">
+<div class="container">
+<div class="section-heading reveal">
+<p class="section-kicker">Sanitized visual samples</p>
+<h2>Fictional records demonstrate the output without exposing internal information.</h2>
+<p>Names, addresses, subjects, links, IDs, folder references, and attachment contents below are invented for portfolio presentation.</p>
+</div>
+<div class="sample-grid">
+<section class="tracker-sample reveal" aria-labelledby="tracker-title">
+<div class="sample-window-bar"><span></span><span></span><span></span><strong id="tracker-title">Communication Register — Demonstration</strong></div>
+<div class="table-scroll">
+<table>
+<thead><tr><th>Date received</th><th>Document title</th><th>Source</th><th>Assigned area</th><th>Category</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>2026-06-03</td><td>Monthly Activity Report</td><td>Reporting Unit 04</td><td>Reporting</td><td>Monthly Reports</td><td><span class="table-status">Filed</span></td></tr>
+<tr><td>2026-06-05</td><td>Evidence Inventory</td><td>Reporting Unit 11</td><td>Records</td><td>Accountability</td><td><span class="table-status">Filed</span></td></tr>
+<tr><td>2026-06-08</td><td>Compliance Submission</td><td>Reporting Unit 02</td><td>Administrative Support</td><td>Compliance</td><td><span class="table-status">Filed</span></td></tr>
+<tr><td>2026-06-12</td><td>Case Monitoring Update</td><td>Reporting Unit 15</td><td>Reporting</td><td>Monitoring</td><td><span class="table-status review">Review</span></td></tr>
+<tr><td>2026-06-17</td><td>Administrative Memorandum</td><td>Reporting Unit 07</td><td>Administrative Support</td><td>Correspondence</td><td><span class="table-status">Filed</span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="sample-note">Demonstration only — all entries are fictional.</p>
+</section>
+
+<section class="folder-sample reveal" aria-labelledby="folder-title">
+<div class="sample-window-bar"><span></span><span></span><span></span><strong id="folder-title">Structured Drive Filing — Demonstration</strong></div>
+<ul class="folder-tree">
+<li class="folder open">Internal Document Register
+<ul><li class="folder open">2026
+<ul><li class="folder open">June
+<ul>
+<li class="folder">Reporting<ul><li class="folder">Monthly Reports<ul><li class="file">Monthly Activity Report.pdf</li></ul></li></ul></li>
+<li class="folder">Records<ul><li class="folder">Accountability<ul><li class="file">Evidence Inventory.xlsx</li></ul></li></ul></li>
+<li class="folder">Administrative Support<ul><li class="folder">Compliance<ul><li class="file">Compliance Submission.docx</li></ul></li></ul></li>
+</ul></li></ul></li></ul>
+</li>
+</ul>
+<p class="sample-note">The deployed configuration uses more detailed internal rules; this tree is intentionally simplified.</p>
+</section>
+</div>
+</div>
+</section>
+
+<section class="section" id="logic">
+<div class="container code-layout">
+<div class="section-heading reveal">
+<p class="section-kicker">Simplified logic</p>
+<h2>Readable pseudocode instead of confidential source code.</h2>
+<p>The complete internal script is not published. This excerpt communicates the workflow design without exposing IDs, account details, keywords, or organization-specific rules.</p>
+</div>
+<pre class="pseudo-code reveal" aria-label="Simplified automation pseudocode"><code>every 10 minutes:
+  search recent incoming messages
+
+  for each message:
+    skip outgoing or already-processed items
+    screen relevance
+
+    for each attachment:
+      classify document
+      create year / month / section / category path
+      save file to Drive
+
+    append communication details to Sheets
+    record processing status or error
+
+  sort register from oldest to newest</code></pre>
+</div>
+</section>
+
+<section class="section section-soft" id="privacy">
+<div class="container privacy-layout">
+<div class="section-heading reveal">
+<p class="section-kicker">Privacy and security</p>
+<h2>Evidence without disclosure.</h2>
+<p>The public case study demonstrates capability while preserving confidentiality, operational integrity, and data minimization.</p>
+</div>
+<div class="privacy-list reveal">
+<div><strong>Removed</strong><span>Official email addresses, sender names, message subjects, Gmail links, message IDs, Drive IDs, and folder URLs</span></div>
+<div><strong>Replaced</strong><span>Real records, document titles, units, categories, and tracker entries with fictional examples</span></div>
+<div><strong>Withheld</strong><span>Full internal source code, keywords, routing rules, attachments, account configuration, and confidential records</span></div>
+<div><strong>Retained</strong><span>Verified processing results, high-level architecture, technologies used, workflow controls, and project responsibilities</span></div>
+</div>
+</div>
+</section>
+
+<section class="case-cta">
+<div class="container case-cta-inner reveal">
+<div><p class="section-kicker">Applied workflow design</p><h2>Built to improve organization, traceability, and recurring administrative work.</h2></div>
+<div class="hero-actions"><a class="button button-light" href="index.html#contact">Discuss an opportunity</a><a class="button case-outline-button" href="index.html#projects">View other projects</a></div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-inner"><p>© <span id="currentYear"></span> Joselito R. Alcalde. All rights reserved.</p><a href="#overview">Back to top ↑</a></div>
+</footer>
+</body>
+</html>
