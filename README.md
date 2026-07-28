@@ -1,31 +1,48 @@
-# Joselito R. Alcalde - Professional Portfolio v9
+# Joselito R. Alcalde - Professional Portfolio v10
 
-This version includes the finalized public résumé and CV and adds a dedicated sanitized Google Workspace automation case study.
+This version presents Joselito R. Alcalde as a **Data, Reporting and Workflow Automation Specialist** with supporting capability in remote operations and administrative support.
 
 ## Primary positioning
 
 **Data, Reporting and Workflow Automation Specialist**  
 **Remote Operations and Administrative Support**
 
-The portfolio now leads with data, spreadsheet reporting, records management, professional documentation, operational support, and Google Workspace automation. Website development, design, and AI-assisted productivity remain visible as secondary digital-support capabilities.
+## Recruiter review path
 
-## Step 1 updates
+1. Open `work-samples.html` for the evidence hub.
+2. Review the automation, reporting, and documentation case studies.
+3. Download the public résumé or CV.
+4. Use the contact form for an opportunity or project inquiry.
 
-- Rewritten browser title, metadata, social-sharing text, and structured professional title
-- Repositioned the hero section around data, reporting, and workflow automation
-- Added Remote Operations and Administrative Support as the supporting role
-- Rewritten the About section to explain the connection between operational experience, data, and automation
-- Reordered and revised capabilities according to their professional priority
-- Reframed the experience introduction around data validation, reporting, records, documentation, and automation
-- Replaced the broad role list with focused data, operations, reporting, and automation roles
-- Added specialized inquiry categories to the contact form
-- Updated the social-sharing preview image
-- Preserved the updated profile photo, dark-mode contact-section correction, projects, résumé and CV downloads, responsive design, and existing functionality
+## Verified public proof points
 
-## Live projects
+- Dynamic monitoring database covering 2,124 case records as of July 2026
+- Recurring report consolidation and validation involving 18 reporting units
+- Live Google Workspace email workflow triggered every 10 minutes
+- Historical processing completed for January 2024 through June 2026
+- One documented historical batch: 50 threads, 54 relevant messages, 56 files saved, and zero errors
 
-- Professional portfolio: https://alcalds.github.io/
-- Cerberus Construction concept website: https://alcalds.github.io/cerberus-construction-ph/
+## Sanitized work samples
+
+- `automation-case-study.html` — deployed Gmail, Drive, Sheets, and Apps Script workflow
+- `data-reporting-case-study.html` — fictional multi-unit reporting and dashboard demonstration
+- `documentation-formatting-case-study.html` — professional editing, formatting, and publication QA
+- `assets/documents/Sanitized_Documentation_Formatting_Sample.pdf` — downloadable three-page fictional PDF sample
+
+## Version 10 recruiter-readiness update
+
+- Added `work-samples.html` as a central recruiter-ready evidence hub.
+- Simplified navigation across the homepage and case-study pages.
+- Added a verified proof-point strip to the homepage and evidence hub.
+- Corrected the homepage so the documentation case study is visibly featured and linked.
+- Added recruiter review guidance and clear verified-versus-sanitized evidence boundaries.
+- Added focus-visible accessibility styling and lazy loading for non-critical images.
+- Updated the sitemap and retained all finalized résumé, CV, contact, dark-mode, and responsive features.
+
+## Application documents
+
+- `assets/documents/Joselito_Alcalde_Public_Resume.pdf`
+- `assets/documents/Joselito_Alcalde_Public_CV.pdf`
 
 ## Contact form activation
 
@@ -38,41 +55,7 @@ Upload all files and folders in this package to the root of the `Alcalds.github.
 Suggested commit message:
 
 ```text
-Reposition portfolio for data reporting and workflow automation
+Add recruiter-ready work samples hub and final portfolio proof points
 ```
 
-After deployment, refresh the live site with `Ctrl + Shift + R`.
-
-## Version 6 application-document update
-
-- Replaced the public résumé with the finalized two-page Data, Reporting and Workflow Automation Specialist version.
-- Replaced the public CV with the updated three-page version containing verified case-monitoring, reporting, automation, publication, and project details.
-- Preserved the document filenames used by the existing portfolio download buttons.
-
-
-## Version 7 automation case study
-
-- Added `automation-case-study.html` as a dedicated sanitized work sample.
-- Added verified execution metrics, historical backfill coverage, a simplified workflow diagram, fictional tracker data, a demonstration folder structure, privacy safeguards, and non-confidential pseudocode.
-- Added a direct case-study button to the featured automation project and a Case Study navigation link.
-- Updated the sitemap to include the new page.
-- Preserved the finalized résumé and CV filenames and download links.
-
-
-## Version 8 data reporting case study
-
-- Added `data-reporting-case-study.html` as a second dedicated sanitized work sample.
-- Demonstrates multi-unit report consolidation, field standardization, validation controls, fictional dashboard reporting, data-quality issue analysis, management-summary writing, and corrective-action monitoring.
-- Uses clearly labeled fictional Unit 01–Unit 18 records and demonstration figures; no actual operational data, official unit identities, personnel names, or internal statistics are disclosed.
-- Added a prominent reporting case-study showcase to the homepage and cross-links between the automation and reporting case studies.
-- Updated navigation and sitemap while preserving the finalized résumé, CV, responsive layout, theme control, and existing contact functionality.
-
-
-## Version 9 documentation and publication-formatting case study
-
-- Added `documentation-formatting-case-study.html` as a third dedicated sanitized work sample.
-- Added a downloadable three-page fictional PDF demonstrating a formal memorandum, publication hierarchy, style system, before-and-after editing, revision matrix, privacy controls, accessibility checks, and render-based quality assurance.
-- Added web previews for all three sample pages and a prominent documentation-project showcase on the homepage.
-- Explained intentional alignment choices: left alignment for résumés, web content, lists, and tables; controlled justification for suitable long-form print content.
-- Added publication-experience context without reproducing any internal or confidential documents.
-- Updated navigation, cross-links, and sitemap while preserving the résumé, CV, automation case study, reporting case study, responsive design, theme control, and contact functionality.
+After deployment, refresh the live site with `Ctrl + Shift + R` and test the homepage, work-sample hub, three case studies, résumé, CV, sample PDF, and contact form on desktop and mobile.

@@ -2542,3 +2542,322 @@ ul {
 
 /* Keep anchored sections clear of the fixed navigation bar. */
 section[id] { scroll-margin-top: 88px; }
+
+
+/* Version 10: recruiter-ready work-sample hub and proof points */
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent) 78%, white);
+  outline-offset: 4px;
+}
+
+.section-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.proof-strip {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+}
+
+.proof-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--border);
+}
+
+.proof-grid article {
+  background: var(--surface);
+  min-height: 128px;
+  padding: 24px;
+}
+
+.proof-grid strong,
+.proof-grid span {
+  display: block;
+}
+
+.proof-grid strong {
+  color: var(--primary);
+  font-size: 1.32rem;
+  letter-spacing: -.02em;
+}
+
+.proof-grid span {
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.5;
+  margin-top: 7px;
+}
+
+.work-samples-hero {
+  align-items: center;
+  background: radial-gradient(circle at top right, color-mix(in srgb, var(--accent) 15%, transparent), transparent 34%), var(--bg);
+  display: flex;
+  min-height: 82vh;
+  overflow: hidden;
+  padding: calc(var(--header-height) + 76px) 0 84px;
+  position: relative;
+}
+
+.work-samples-hero-grid {
+  align-items: center;
+  display: grid;
+  gap: 66px;
+  grid-template-columns: 1.12fr .88fr;
+  position: relative;
+  z-index: 1;
+}
+
+.work-samples-hero-copy h1 {
+  font-size: clamp(3rem, 6vw, 5.6rem);
+  letter-spacing: -.055em;
+  line-height: .98;
+}
+
+.review-path-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+  padding: 30px;
+}
+
+.review-path-card ol {
+  counter-reset: review-step;
+  display: grid;
+  gap: 16px;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.review-path-card li {
+  align-items: start;
+  counter-increment: review-step;
+  display: grid;
+  gap: 3px 13px;
+  grid-template-columns: 34px 1fr;
+}
+
+.review-path-card li::before {
+  align-items: center;
+  background: var(--accent-soft);
+  border-radius: 50%;
+  color: var(--accent);
+  content: counter(review-step, decimal-leading-zero);
+  display: inline-flex;
+  font-size: .67rem;
+  font-weight: 900;
+  grid-row: 1 / span 2;
+  height: 34px;
+  justify-content: center;
+  width: 34px;
+}
+
+.review-path-card strong,
+.review-path-card span {
+  display: block;
+}
+
+.review-path-card span {
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.review-time {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 750;
+  margin-top: 22px;
+  padding-top: 18px;
+}
+
+.work-sample-grid {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 48px;
+}
+
+.work-sample-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 29px;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.work-sample-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-5px);
+}
+
+.sample-card-number {
+  color: var(--accent);
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .12em;
+  margin-bottom: 17px;
+}
+
+.work-sample-card h3 {
+  color: var(--primary);
+  font-size: 1.45rem;
+  line-height: 1.25;
+  margin-bottom: 13px;
+}
+
+.work-sample-card > p,
+.work-sample-card li {
+  color: var(--muted);
+}
+
+.work-sample-card ul {
+  margin: 20px 0;
+}
+
+.work-sample-card li {
+  font-size: .84rem;
+  margin-bottom: 8px;
+}
+
+.sample-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 9px;
+}
+
+.work-sample-card .project-meta > span:not(.status) {
+  color: var(--muted);
+}
+
+.work-sample-card .project-button:not(.project-button-primary) {
+  border-color: var(--border);
+  color: var(--primary);
+}
+
+.evidence-grid {
+  align-items: start;
+  display: grid;
+  gap: 65px;
+  grid-template-columns: .82fr 1.18fr;
+}
+
+.evidence-cards {
+  display: grid;
+  gap: 13px;
+}
+
+.evidence-cards article {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.evidence-cards strong,
+.evidence-cards p {
+  display: block;
+}
+
+.evidence-cards strong {
+  color: var(--primary);
+}
+
+.evidence-cards p {
+  color: var(--muted);
+  font-size: .86rem;
+  margin: 6px 0 0;
+}
+
+.secondary-work-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 45px;
+}
+
+.secondary-work-grid article {
+  background: #112843;
+  border: 1px solid rgba(255,255,255,.11);
+  border-radius: 22px;
+  padding: 29px;
+}
+
+.secondary-work-grid span {
+  color: #71d2cb;
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.secondary-work-grid h3 {
+  color: #fff;
+  font-size: 1.35rem;
+  margin: 9px 0;
+}
+
+.secondary-work-grid p {
+  color: #b9c8d7;
+}
+
+.secondary-work-grid a {
+  color: #7fddd6;
+  display: inline-block;
+  font-weight: 850;
+  margin-top: 17px;
+}
+
+@media (max-width: 1040px) {
+  .proof-grid,
+  .work-sample-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .work-sample-card:last-child {
+    grid-column: 1 / -1;
+  }
+  .work-samples-hero-grid,
+  .evidence-grid {
+    grid-template-columns: 1fr;
+  }
+  .review-path-card {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 720px) {
+  .proof-grid,
+  .work-sample-grid,
+  .secondary-work-grid {
+    grid-template-columns: 1fr;
+  }
+  .work-sample-card:last-child {
+    grid-column: auto;
+  }
+  .proof-grid article {
+    min-height: auto;
+  }
+  .work-samples-hero {
+    min-height: auto;
+    padding-top: calc(var(--header-height) + 54px);
+  }
+  .work-samples-hero-copy h1 {
+    font-size: clamp(2.85rem, 13vw, 4rem);
+  }
+}
