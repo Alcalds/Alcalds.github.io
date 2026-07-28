@@ -1,4 +1,4 @@
-# Joselito R. Alcalde - Professional Portfolio v7
+# Joselito R. Alcalde - Professional Portfolio v8
 
 This version includes the finalized public résumé and CV and adds a dedicated sanitized Google Workspace automation case study.
 
@@ -57,3 +57,12 @@ After deployment, refresh the live site with `Ctrl + Shift + R`.
 - Added a direct case-study button to the featured automation project and a Case Study navigation link.
 - Updated the sitemap to include the new page.
 - Preserved the finalized résumé and CV filenames and download links.
+
+
+## Version 8 data reporting case study
+
+- Added `data-reporting-case-study.html` as a second dedicated sanitized work sample.
+- Demonstrates multi-unit report consolidation, field standardization, validation controls, fictional dashboard reporting, data-quality issue analysis, management-summary writing, and corrective-action monitoring.
+- Uses clearly labeled fictional Unit 01–Unit 18 records and demonstration figures; no actual operational data, official unit identities, personnel names, or internal statistics are disclosed.
+- Added a prominent reporting case-study showcase to the homepage and cross-links between the automation and reporting case studies.
+- Updated navigation and sitemap while preserving the finalized résumé, CV, responsive layout, theme control, and existing contact functionality.
