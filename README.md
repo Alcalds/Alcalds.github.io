@@ -1,4 +1,4 @@
-# Joselito R. Alcalde - Professional Portfolio v8
+# Joselito R. Alcalde - Professional Portfolio v9
 
 This version includes the finalized public résumé and CV and adds a dedicated sanitized Google Workspace automation case study.
 
@@ -66,3 +66,13 @@ After deployment, refresh the live site with `Ctrl + Shift + R`.
 - Uses clearly labeled fictional Unit 01–Unit 18 records and demonstration figures; no actual operational data, official unit identities, personnel names, or internal statistics are disclosed.
 - Added a prominent reporting case-study showcase to the homepage and cross-links between the automation and reporting case studies.
 - Updated navigation and sitemap while preserving the finalized résumé, CV, responsive layout, theme control, and existing contact functionality.
+
+
+## Version 9 documentation and publication-formatting case study
+
+- Added `documentation-formatting-case-study.html` as a third dedicated sanitized work sample.
+- Added a downloadable three-page fictional PDF demonstrating a formal memorandum, publication hierarchy, style system, before-and-after editing, revision matrix, privacy controls, accessibility checks, and render-based quality assurance.
+- Added web previews for all three sample pages and a prominent documentation-project showcase on the homepage.
+- Explained intentional alignment choices: left alignment for résumés, web content, lists, and tables; controlled justification for suitable long-form print content.
+- Added publication-experience context without reproducing any internal or confidential documents.
+- Updated navigation, cross-links, and sitemap while preserving the résumé, CV, automation case study, reporting case study, responsive design, theme control, and contact functionality.
