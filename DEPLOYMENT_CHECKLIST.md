@@ -25,7 +25,7 @@
 Suggested commit message:
 
 ```text
-Deploy finalized recruiter-ready portfolio v11
+Correct congressional employment dates and deploy portfolio v12
 ```
 
 ## Verify GitHub Pages
@@ -77,3 +77,9 @@ After the website is confirmed live:
 
 **Data, Reporting and Workflow Automation Specialist**  
 **Remote Operations and Administrative Support**
+
+## Version 12 correction check
+
+- Confirm the homepage shows **Congressional Office Administrative Staff**.
+- Confirm the period shows **December 2017 — September 2018**.
+- Download the résumé and CV and confirm the corrected period appears in both documents.

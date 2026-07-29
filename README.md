@@ -1,4 +1,4 @@
-# Joselito R. Alcalde - Professional Portfolio v11
+# Joselito R. Alcalde - Professional Portfolio v12
 
 This version presents Joselito R. Alcalde as a **Data, Reporting and Workflow Automation Specialist** with supporting capability in remote operations and administrative support.
 
@@ -29,13 +29,12 @@ This version presents Joselito R. Alcalde as a **Data, Reporting and Workflow Au
 - `documentation-formatting-case-study.html` — professional editing, formatting, and publication QA
 - `assets/documents/Sanitized_Documentation_Formatting_Sample.pdf` — downloadable three-page fictional PDF sample
 
-## Version 11 final deployment update
+## Version 12 employment-history correction
 
-- Retains the recruiter-ready work-samples hub, three sanitized case studies, finalized résumé, finalized CV, and contact workflow.
-- Adds versioned CSS and JavaScript references (`?v=11`) to reduce stale browser-cache problems after deployment.
-- Adds a branded `404.html` page for invalid or outdated GitHub Pages links.
-- Adds a detailed deployment and post-deployment verification checklist.
-- Revalidates local links, document files, archive integrity, desktop rendering, and mobile rendering.
+- Corrects the Congressional Office Administrative Staff employment period to December 2017-September 2018.
+- Updates the public résumé, public CV, and homepage experience timeline consistently.
+- Updates cache-busting CSS and JavaScript references to `?v=12`.
+- Retains the recruiter-ready work-samples hub, three sanitized case studies, contact workflow, and custom 404 page.
 
 ## Application documents
 
@@ -53,7 +52,7 @@ Upload all files and folders in this package to the root of the `Alcalds.github.
 Suggested commit message:
 
 ```text
-Deploy finalized recruiter-ready portfolio v11
+Correct congressional employment dates and deploy portfolio v12
 ```
 
 After deployment, refresh the live site with `Ctrl + Shift + R` and test the homepage, work-sample hub, three case studies, résumé, CV, sample PDF, and contact form on desktop and mobile.
