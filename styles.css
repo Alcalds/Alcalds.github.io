@@ -2861,3 +2861,23 @@ section[id] { scroll-margin-top: 88px; }
     font-size: clamp(2.85rem, 13vw, 4rem);
   }
 }
+
+
+/* V13 - Real client portfolio features; no client screenshots or logo assets. */
+.client-work-grid { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap:24px; margin:30px 0 12px; }
+.client-work-card { display:flex; flex-direction:column; gap:13px; padding:32px; border-radius:24px; background:var(--surface); color:var(--text); border:1px solid var(--border); box-shadow:var(--shadow); }
+.client-work-card h3{font-size:clamp(1.45rem,2.2vw,2rem);line-height:1.22;letter-spacing:-.018em;}
+.client-work-card > p:not(.client-work-domain){color:var(--muted);line-height:1.72;flex-grow:1;}
+.client-work-top{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;}
+.client-work-type{color:var(--muted);font-size:.82rem;font-weight:700;}
+.client-work-monogram{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(110deg,#113f48,#1f6c66);color:#fff;border-radius:14px;padding:14px 20px;font-size:2rem;font-weight:800;letter-spacing:-.04em;}
+.client-work-monogram span{font-size:.75rem;letter-spacing:.14em;font-weight:700;color:#c9f0e7;}
+.client-work-monogram-alt{background:linear-gradient(110deg,#19365a,#33557e);}
+.client-work-monogram-alt span{color:#d7e8f7;}
+.client-work-domain{font-size:.9rem;font-weight:600;color:var(--muted)}.client-work-domain a{color:var(--primary);text-decoration:underline;text-underline-offset:3px;}
+.client-work-note{font-size:.88rem;line-height:1.6;opacity:.86;margin-bottom:26px;color:#d6e8ef;}
+.status-client-live{color:#e4fff1;background:#17664f}.status-inprogress{color:#fff0d3;background:#805e24}
+.work-sample-card-client{border-color:color-mix(in srgb,var(--accent) 32%,var(--border));}
+.tool-text-icon{display:grid;place-items:center;flex-shrink:0;width:42px;height:42px;border-radius:12px;color:#fff;background:linear-gradient(145deg,#176b71,#204a87);font-weight:900;font-size:1.2rem;}
+@media(max-width:800px){.client-work-grid{grid-template-columns:1fr;}.client-work-card{padding:24px;}}
+@media(prefers-reduced-motion:reduce){.client-work-card{transition:none;}}

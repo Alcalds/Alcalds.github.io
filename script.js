@@ -115,6 +115,8 @@ if (inquiryType && contactSubject) {
       "Operations and documentation support": "Operations and Documentation Support Inquiry",
       "Request detailed CV": "Request for Joselito Alcalde's Detailed CV",
       "Website or digital project": "Website or Digital Project Inquiry",
+      "Wix Studio website development": "Wix Studio Website Development Inquiry",
+      "Website maintenance / Wix Bookings": "Website Maintenance and Bookings Inquiry",
       "Project collaboration": "Project Collaboration Inquiry",
       "General inquiry": "General Portfolio Inquiry"
     };

@@ -1,85 +1,31 @@
-# Final GitHub Pages Deployment Checklist
+# V13 GitHub Pages deployment and QA checklist
 
-## Before uploading
+## Pre-publication review
+- [ ] Check privacy and permissions for naming Kingfisher Park and RNK Foundation and linking to any development preview.
+- [ ] Approve the new professional title: **Website Designer & Digital Solutions Specialist**.
+- [ ] Confirm the two client project descriptions are factually correct and that RNK is still marked **In Development**.
+- [ ] Check all original employment dates, especially **December 2017–September 2018** for Congressional Office Administrative Staff.
+- [ ] Review public résumé and CV PDFs and DOCX; no private phone or full residential street address included.
 
-- Confirm that you are working in the `Alcalds.github.io` repository.
-- Keep a local copy of the current repository as a backup.
-- Extract the ZIP before uploading. Do not upload the ZIP file itself as the website.
-- The extracted package must show `index.html` at the top level, not inside another folder.
+## Upload to GitHub Pages
+1. Back up the current repository `Alcalds.github.io`.
+2. Extract the ZIP; upload **contents** to the repository root, not the ZIP.
+3. Replace `index.html`, `work-samples.html`, `styles.css`, `script.js`, `sitemap.xml`, `README.md`, `VERSION.txt`, and existing assets; add the two new case-study HTML files and new DOCX files.
+4. Keep `.nojekyll`, `404.html`, `thanks.html` and existing case-study PDFs.
+5. Commit to `main` and confirm Pages deployment under Settings → Pages.
 
-## Replace the website files
+## Browser validation
+- [ ] Home at https://alcalds.github.io/ shows the new role and headshot.
+- [ ] Kingfisher Park card and case study display correct live domain and no screenshots.
+- [ ] RNK card and case study display `In development` and mark preview as unfinished.
+- [ ] All five case studies load; Cerberus still clearly labeled a concept.
+- [ ] Work Samples nav, anchors, responsive mobile menu, footer, back links and theme toggle work.
+- [ ] Resume PDF and CV PDF open, DOCX source files downloadable.
+- [ ] Social preview image and page metadata are correct.
+- [ ] On small phones (360–390px), tablet widths (768–900px) and desktop, there is no horizontal overflow or clipped text.
+- [ ] Contact form test reaches FormSubmit, email is delivered, and thanks page opens.
+- [ ] Check new URLs in sitemap.xml; test 404 page.
 
-1. Open the repository on GitHub.
-2. Remove or replace the old portfolio files in the repository root.
-3. Upload all files and folders from this package, including:
-   - `.nojekyll`
-   - `404.html`
-   - `index.html`
-   - `work-samples.html`
-   - the three case-study pages
-   - `styles.css` and `script.js`
-   - `assets/`
-   - `robots.txt` and `sitemap.xml`
-4. Commit the changes to `main`.
-
-Suggested commit message:
-
-```text
-Correct congressional employment dates and deploy portfolio v12
-```
-
-## Verify GitHub Pages
-
-- Open **Settings → Pages** in the repository.
-- Confirm the source is the `main` branch and the root folder.
-- Wait for the GitHub Pages deployment to finish.
-- Open `https://alcalds.github.io/` in a private or incognito window.
-- The hero title should read **Data, Reporting and Workflow Automation Specialist**.
-- Use a hard refresh if an older version appears.
-
-## Test these pages and downloads
-
-- Homepage: `https://alcalds.github.io/`
-- Work samples: `https://alcalds.github.io/work-samples.html`
-- Automation case study
-- Data-reporting case study
-- Documentation-formatting case study
-- Public résumé PDF
-- Public CV PDF
-- Sanitized documentation sample PDF
-- Cerberus Construction concept website
-- LinkedIn and GitHub buttons
-
-## Contact-form activation
-
-- Submit one test message using your own alternate email address.
-- Check the Gmail inbox and spam folder for the FormSubmit activation message.
-- Complete activation when required.
-- Submit another test after activation.
-- Confirm that the thank-you page opens and the message arrives correctly.
-- Never use confidential information in a test submission.
-
-## Desktop and mobile check
-
-- Test the menu, buttons, theme switch, downloads, and contact form on a desktop browser.
-- Test the same items on your phone using mobile data as well as Wi-Fi.
-- Confirm that no text is clipped and that there is no horizontal scrolling.
-
-## Search and profile alignment
-
-After the website is confirmed live:
-
-1. Update LinkedIn.
-2. Update OnlineJobs.ph.
-3. Update selected job-platform profiles.
-4. Add the portfolio URL to each profile.
-5. Use the same primary positioning everywhere:
-
-**Data, Reporting and Workflow Automation Specialist**  
-**Remote Operations and Administrative Support**
-
-## Version 12 correction check
-
-- Confirm the homepage shows **Congressional Office Administrative Staff**.
-- Confirm the period shows **December 2017 — September 2018**.
-- Download the résumé and CV and confirm the corrected period appears in both documents.
+## After deployment
+- Update LinkedIn, OnlineJobs.ph and relevant job-platform profiles to match the new balanced positioning.
+- If the client does not authorize displaying the RNK preview URL, remove the preview links while keeping the text-only in-progress case study (subject to permission).

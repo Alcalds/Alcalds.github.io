@@ -1,33 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://alcalds.github.io/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://alcalds.github.io/automation-case-study.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://alcalds.github.io/work-samples.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://alcalds.github.io/kingfisher-park-case-study.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://alcalds.github.io/rnk-foundation-case-study.html</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alcalds.github.io/automation-case-study.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
   </url>
   <url>
     <loc>https://alcalds.github.io/data-reporting-case-study.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.88</priority>
   </url>
   <url>
     <loc>https://alcalds.github.io/documentation-formatting-case-study.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://alcalds.github.io/work-samples.html</loc>
-    <lastmod>2026-07-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
+    <priority>0.88</priority>
   </url>
 </urlset>

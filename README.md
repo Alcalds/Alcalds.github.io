@@ -1,58 +1,48 @@
-# Joselito R. Alcalde - Professional Portfolio v12
+# Joselito R. Alcalde - Professional Portfolio v13 (25 November 2026)
 
-This version presents Joselito R. Alcalde as a **Data, Reporting and Workflow Automation Specialist** with supporting capability in remote operations and administrative support.
+## Professional positioning
+**Website Designer & Digital Solutions Specialist**  
+Wix Studio Development · Workflow Automation · Data Reporting
 
-## Primary positioning
+Revised from the user-supplied V12 portfolio ZIP; this is a static website ready for GitHub Pages deployment **after owner review**. Original functional structure was retained: homepage, work hub, original case studies, navigation, light/dark switch, contact workflow, downloads, favicon, 404 page, thanks page, robots and sitemap.
 
-**Data, Reporting and Workflow Automation Specialist**  
-**Remote Operations and Administrative Support**
+## Project status / publication boundaries
 
-## Recruiter review path
+**Kingfisher Park — live client website**: https://www.kingfisherpark.com/  
+New case study `kingfisher-park-case-study.html` presents multi-page Wix Studio implementation, custom interactions, Wix Bookings configuration and maintenance. It does **not** say that payment checkout or specialized BERAE pricing is complete.
 
-1. Open `work-samples.html` for the evidence hub.
-2. Review the automation, reporting, and documentation case studies.
-3. Download the public résumé or CV.
-4. Use the contact form for an opportunity or project inquiry.
+**Regalo ng Kilit Foundation — in development**: https://magicalkingfisherp.wixstudio.com/regalongkilit  
+New case study `rnk-foundation-case-study.html` is explicitly marked incomplete; the project is not claimed as launched with a custom domain. The preview URL was supplied by the portfolio owner; verify whether the client authorizes linking to the work in progress.
 
-## Verified public proof points
+**Privacy choice:** Project **names and text descriptions only**. No client project screenshots, client logos or copied image assets are included. This draft does not imply a documented client endorsement; check client permission prior to publishing client names, details and public links.
 
-- Dynamic monitoring database covering 2,124 case records as of July 2026
-- Recurring report consolidation and validation involving 18 reporting units
-- Live Google Workspace email workflow triggered every 10 minutes
-- Historical processing completed for January 2024 through June 2026
-- One documented historical batch: 50 threads, 54 relevant messages, 56 files saved, and zero errors
+**Other case studies remain intact**: automation, reporting, documentation, Cerberus construction concept (clearly labeled), and the professional portfolio itself. Existing employment dates and source-dependent historical metrics were preserved and dated instead of being silently updated.
 
-## Sanitized work samples
+## New/revised files
 
-- `automation-case-study.html` — deployed Gmail, Drive, Sheets, and Apps Script workflow
-- `data-reporting-case-study.html` — fictional multi-unit reporting and dashboard demonstration
-- `documentation-formatting-case-study.html` — professional editing, formatting, and publication QA
-- `assets/documents/Sanitized_Documentation_Formatting_Sample.pdf` — downloadable three-page fictional PDF sample
+- `index.html` - balanced hero, real Wix projects first, improved capabilities and role options.
+- `work-samples.html` - featured Wix Studio client website case studies, plus all three legacy evidence pages.
+- `kingfisher-park-case-study.html` - text-only Kingfisher Park project case study.
+- `rnk-foundation-case-study.html` - text-only RNK work-in-progress case study.
+- `styles.css?v=13` and `script.js?v=13` - preserved V12 behavior with additional project styling and inquiry types.
+- `assets/images/joselito-alcalde.webp` - optimized version of the supplied portrait, without changing the person's facial features.
+- `assets/images/social-preview.jpg` - revised social preview using supplied portrait.
+- `assets/documents/Joselito_Alcalde_Public_Resume.pdf`, `.docx` - revised public résumé.
+- `assets/documents/Joselito_Alcalde_Public_CV.pdf`, `.docx` - revised public CV.
+- `sitemap.xml` - new site-specific case studies and updated lastmod date.
 
-## Version 12 employment-history correction
+## Practical verification before deployment
 
-- Corrects the Congressional Office Administrative Staff employment period to December 2017-September 2018.
-- Updates the public résumé, public CV, and homepage experience timeline consistently.
-- Updates cache-busting CSS and JavaScript references to `?v=12`.
-- Retains the recruiter-ready work-samples hub, three sanitized case studies, contact workflow, and custom 404 page.
+1. Review all client-project wording, especially in-development status and the unfinished booking/payment work.
+2. Obtain permission for public project write-ups and the RNK development-preview link (if not already granted).
+3. Review the final résumé and CV for exact job wording and dates. No personal phone number or street address appears.
+4. Upload all extracted files to GitHub Pages root (`Alcalds.github.io` repository, main branch), not the ZIP itself.
+5. Check home, work samples, both new case studies, existing three case studies, theme toggle, mobile menu, contact form and résumé/CV downloads on actual devices.
+6. Submit a test contact form; if FormSubmit activation is required, confirm it through the original inbox.
+7. Publish a new GitHub commit and, after the new pages are indexed, review Search Console if connected.
 
-## Application documents
+## Deployment
 
-- `assets/documents/Joselito_Alcalde_Public_Resume.pdf`
-- `assets/documents/Joselito_Alcalde_Public_CV.pdf`
+Suggested commit message: `Revise portfolio v13 - Wix Studio client projects and digital solutions positioning`
 
-## Contact form activation
-
-The contact form uses FormSubmit. After deployment, submit a test message and confirm the activation email sent to `joselitoalcalde@gmail.com` when required.
-
-## GitHub Pages deployment
-
-Upload all files and folders in this package to the root of the `Alcalds.github.io` repository, replace the existing files, and commit directly to `main`.
-
-Suggested commit message:
-
-```text
-Correct congressional employment dates and deploy portfolio v12
-```
-
-After deployment, refresh the live site with `Ctrl + Shift + R` and test the homepage, work-sample hub, three case studies, résumé, CV, sample PDF, and contact form on desktop and mobile.
+Source folder is deployable without a build step. Links to Wix sites may be blocked by automated web tools; verify them in a normal browser before sharing publicly.
